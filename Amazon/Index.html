@@ -17,40 +17,62 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#" >Inicio</a>
+                <a class="nav-link active" aria-current="page" href="#" > Actualizar ubicación </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
+              
+            </ul>
+            <form class="d-flex">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Desplegar
-                </a>
+                <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle navbar navbar-dark bg-dark" data-bs-toggle="dropdown" aria-expanded="false">
+                  Todas las categorías
+                </button>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Accion</a></li>
                   <li><a class="dropdown-item" href="#">Otra aciion</a></li>
-                  <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Desactivado</a>
-              </li>
-            </ul>
-            <form class="d-flex">
               <input class="form-control me-2" type="Buscar Amazon.com.mx" placeholder="Buscar Amazon.com.mx" aria-label="Buscar Amazon.com.mx">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
+              <button class="btn btn-outline-success " type="submit">Buscar</button>
+              <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle navbar navbar-dark bg-dark" data-bs-toggle="dropdown" aria-expanded="false">
+                Cuenta y listas
+              </button>
+              <button type="button" class="btn btn-primary navbar navbar-dark bg-dark"> Devoluciones y pedidos </button>
+              <button type="button" class="btn btn-primary navbar navbar-dark bg-dark"> Carrito </button>
             </form>
           </div>
         </div>
       </nav>
-      <div class="container">
-        <div class="row">
-            <h2> Bienvenido a mi página</h2>
-            <img src="perro.jpg" alt="">
-        </div>
     </div>
-    <br>
+    <div class="dropdown">
+  
+  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+  <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle navbar navbar-dark bg-dark " data-bs-toggle="dropdown" aria-expanded="false">
+    Todo
+  </button>
+    <button type="button" class="btn btn-primary navbar navbar-dark bg-dark"> Vender </button>
+    <button type="button" class="btn btn-primary navbar navbar-dark bg-dark"> Lo más vendido </button>
+    <button type="button" class="btn btn-primary navbar navbar-dark bg-dark"> AmazonBasics </button>
+
+    <div class="btn-group" role="group">
+      <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle navbar navbar-dark bg-dark" data-bs-toggle="dropdown" aria-expanded="false">
+        Prime
+      </button>
+      <button type="button" class="btn btn-primary navbar navbar-dark bg-dark"> AmazonBasics </button>
+      <button type="button" class="btn btn-primary navbar navbar-dark bg-dark"> Promociones </button>
+      <button type="button" class="btn btn-primary navbar navbar-dark bg-dark"> Lo nuevo </button>
+      <button type="button" class="btn btn-primary navbar navbar-dark bg-dark"> Los Más Regalados </button>
+      <button type="button" class="btn btn-primary navbar navbar-dark bg-dark"> Outlet </button>
+      <button type="button" class="btn btn-primary navbar navbar-dark bg-dark"> Música </button>
+      <button type="button" class="btn btn-primary navbar navbar-dark bg-dark"> Sueltos en los cabos-Nueva serie</button>
+      <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  
     <script src="js/bootstrap.js"></script>
 </body>
 </html>
