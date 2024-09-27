@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen en línea</title>
+</head>
+<body>
+    <div class="container">
+        <form action="practica4.php" method="POST">
+            <div class="row" style="background-color: darkcyan;">
+                <h1 style="color: white;">Exámen - Cultura generál</h1><hr>
+                    
+                
+                
+                <div class="card mb-4">
+                        <div class="card-header" style="background-color: aquamarine;">
+                        1. ¿Cuántas maravillas del mundo hay?
+                        </div>
+                        <div class="card-body" style="background-color: aqua;">
+                            <p><input type="radio" name="pregunta1" value="7 maravillas" required>  7 maravillas</p>
+                            <p><input type="radio" name="pregunta1" value="8 maravillas" required>  8 maravillas </p>
+                            <p><input type="radio" name="pregunta1" value="6 maravillas" required >  6 maravillas </p>
+                        </div>
+                    </div>
+                    <div class="card p-4 mb-4" style="background-color: aquamarine;">
+                        <p>
+                            2. ¨El que nada debe, <input type="text" name="pregunta2" value="" required>.¨
+
+                        </p>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="card-header" style="background-color: aquamarine;">
+                        3. 
+                        ¿Cuáles son algunos de los niños heroes? (Selecciona 2)
+                        </div>
+                        <div class="card-body" style="background-color: aqua;">
+                            <p><input type="checkbox" name="pregunta3[]" value="Vicente Fernandez"> Vicente Fernandez </p>
+                            <p><input type="checkbox" name="pregunta3[]" value="Juan de la Barrera"> Juan de la Barrera </p>
+                            <p><input type="checkbox" name="pregunta3[]" value="Fernando Montes de Oca"> Fernando Montes de Oca </p>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="card-header" style="background-color: aquamarine;">
+                        4. ¿Cuál es el órgano más grande del cuerpo humano?
+                        </div>
+                        <div class="card-body" style="background-color: aqua;">
+                            <p><input type="radio" name="pregunta4" value="El corazón;" required> El corazón </p>
+                            <p><input type="radio" name="pregunta4" value="La piel" required> La piel </p>
+                            <p><input type="radio" name="pregunta4" value="El cerebro" required > El cerebro </p>
+                        </div>
+                    </div>
+                    <div class="card p-4 mb-4" style="background-color: aquamarine;">
+                        <p>
+                            5. “El día de la independencia fue en el año <input type="text" name="pregunta5" value="" required> .”
+
+                        </p>
+                    </div>
+
+                    <div class="card mb-4">
+                        <div class="card-header" style="background-color: aquamarine;">
+                        6. Completa el refrán, Al que madruga
+                        </div>
+                        <div class="card-body" style="background-color: aqua;">
+                            <p><input type="radio" name="pregunta6" value="Le da sueño temprano" required> Le da sueño temprano </p>
+                            <p><input type="radio" name="pregunta6" value="Dios le ayuda" required> Dios le ayuda </p>
+                            <p><input type="radio" name="pregunta6" value="Lo asaltan" required > Lo asaltan </p>
+                        </div>
+                    </div>
+                    <div class="card p-4 mb-4" style="background-color: aquamarine;">
+                        <p>
+                            7. “De qué color es el circulo de la bandera de Japón <input type="text" name="pregunta7" value="" required> !”
+
+                        </p>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="card-header" style="background-color: aquamarine;">
+                        8. ¿Cuáles son algunas de las maravillas del mundo? (Selecciona 2)
+                        </div>
+                        <div class="card-body" style="background-color: aqua;">
+                            <p><input type="checkbox" name="pregunta8[]" value="La gran esfinge de guiza"> La gran esfinge de guiza </p>
+                            <p><input type="checkbox" name="pregunta8[]" value="Cristo redentor"> Cristo redentor </p>
+                            <p><input type="checkbox" name="pregunta8[]" value="Coliseo Románo" > Coliseo Románo </p>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="card-header" style="background-color: aquamarine;">
+                        9. ¿Cuál es el río más largo del mundo ?
+                        </div>
+                        <div class="card-body" style="background-color: aqua;">
+                            <p><input type="radio" name="pregunta9" value="Río Amazonas" required> Río Amazonas </p>
+                            <p><input type="radio" name="pregunta9" value="Río Nilo" required> Río Nilo </p>
+                            <p><input type="radio" name="pregunta9" value="Río Misuri" required> Río Misuri </p>
+                        </div>
+                    </div>
+                    <div class="card p-4 mb-4" style="background-color: aquamarine;">
+                        <p>
+                            10. ¨Cómo se representa el elemento Mercúrio de la tabla periodica <input type="text" name="pregunta10" value="" required>.¨
+                        </p>
+                    </div>
+            </div>
+            <br><input type="submit" class="btn btn-primary" value="Terminar examen" style="background-color: red;">
+        </form>
+    </div>
+</body>
+</html>
